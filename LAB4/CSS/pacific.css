@@ -1,0 +1,64 @@
+
+body{
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Arial, Verdana,
+    Sans-Serif;
+}
+
+header {
+    color:#FFFFFF;
+    background-color: #000033;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
+
+
+
+main{
+    padding-top:1px;
+
+    display:block;
+    background-color:white;
+
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3; 
+  
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+nav{background-color: #90C7E3;}
+h2{color: #3399CC;
+ }
+dt{
+    background-color: #000033;
+}
+nav a:link{color:#000033;}
+nav a:visited{color:#344873;}
+nav a:hover{color:#FFFFFF;}
+
+
+/*
+Global styles for the document (use the body element selector) with background color white (#FFFFFF) and text color dark gray (#666666).
+
+Style rules for the header element selector that configure background color (#000033) and text color (#FFFFFF).
+
+Styles for the nav element selector that configure sky blue background color (#90C7E3).
+
+Styles for the h2 element selector that configure medium blue text color (#3399CC).
+
+Styles for the dt element selector that configure dark blue text color (#000033).
+
+Styles for a class named resort that configure medium dark blue text color (#5C7FA3).
+*/

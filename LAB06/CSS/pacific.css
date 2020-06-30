@@ -1,0 +1,141 @@
+
+body{ 
+    background: linear-gradient(#FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
+    font-family: Arial, Verdana,
+    Sans-Serif;
+}
+
+header {
+    color:#FFFFFF;
+    height: 60px;
+    text-align: center;;
+    background-color: #000033;
+ 
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-image: url(../Images/pacific/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400%;
+ 
+}
+
+
+
+main{
+    padding-top:1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    scroll-padding-left: 20px;
+    display:block;
+    background-color:white;
+
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+nav{
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+padding: 10px;
+  
+}
+nav a{
+    text-decoration: none;
+
+}
+
+h1{
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2{
+    color: #CCCCCC;
+    offset: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ h3
+ {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+
+
+ }
+dt{
+    background-color: #000033;
+}
+nav a:link{color:#000033;}
+nav a:visited{color:#344873;}
+nav a:hover{color:#FFFFFF;}
+
+ul
+{list-style-type: circle;
+
+}
+
+footer
+{
+    padding:20px;
+    font-size: 75%;    
+    background-color:#FFFFFF;
+    font-style:italic;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.ressort
+{
+font-weight: bold;
+
+}
+
+#contact{font-size:90%;}
+
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    background-color:#90C7E3;
+    min-width: 960px;
+    max-width:2048px;
+    box-shadow:3px 3px 3px #333333;
+}
+
+#homehero{height:300px;
+    background-image:url(../Images/pacific/trail.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}
+
+#yurthero{height:300px;
+    background-image:url(../Images/pacific/yurt.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}
+
+#trailhero{height:300px;
+    background-image:url(../Images/pacific/trail.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}

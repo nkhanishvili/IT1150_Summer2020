@@ -155,49 +155,146 @@ font-weight: bold;
 
 }
 
+/*Lab 08*/
+header, main, nav footer, figure, figcaption,
+aside, section, article {display:block;}
+
+#mobile{display:none;}
+#desktop{display:inline;}
+@media only screen and (max-width:37.5em){
+
+video,embed {float:right;
+             padding:20px;
+}
+
+
+nav {padding:0;
+
+}
+
+nav a {display:block;}
+
+
+nav li{ display:block;
+	    margin:0;
+        border-bottom:
+        solid 2px #330000;
+
+
+}
+
+header{padding-top:1em;
+}
+
+main{padding-top:0.1em;
+	 padding-bottom:0.1em;
+     padding-left:1em;
+     padding-right:1em;
+     font-size:90%;
+ }
+
+h1{font-size:1.5em;
+
+}
+
+
+#homehero{display:none;
+          height:auto;
+ }
+
+#yurthero{display:none;
+          height:auto;
+ }
+
+#trailhero{display:none;
+          height:auto;
+ }
+
+#mobile{display:inline;
+
+}
+
+#desktop{display:none;
+
+}
+
+table{border:solid 1px #3399CC;
+      width:80%;
+      border-spacing:0;
+}
+
+td,th{padding:5px;
+	  border:solid 1px #3399CC;
+
+}
+
+td{text-align:center;
+}
+
+.text{text-align:left;
+
+
+}
+
+tr:nth-of-type(odd) {background-color: #F5FAFC;
+}
+
+label{float:none;
+      text-align:left;
+}
+
+input[type="submit"]
+{margin-left:0;}
+
+#fade{width:100%;}
+
+}
+
+
+
+
 @media only screen and (max-width:64em){
 
-    body{margin:0;
-         background-color:#FFFFFF;
-    
-    }
-    
-    main{margin-left:0;}
-    
-    
-    #wrapper{min-width:0;
-             width:auto;
-             box-shadow:none;
-    }
-    
-    nav{float:none;
-        width:auto;
-        text-align:center;
-        padding:0.5em;
-    }
-    
-    #homehero{margin:0;
-              height:200px;
-     }
-    
-    #yurthero{margin:0;
-              height:200px;
-     }
-    
-    #trailhero{margin:0;
-              height:200px;
-     }
-    
-     #pathhero{margin:0;
-              height:200px;
-     }
-    
-    
-    footer{margin:0;
-    }
-    
-    
-    
-    
-    }
-    
+body{margin:0;
+     background-color:#FFFFFF;
+
+}
+
+main{margin-left:0;}
+
+
+#wrapper{min-width:0;
+         width:auto;
+         box-shadow:none;
+}
+
+nav{float:none;
+    width:auto;
+    text-align:center;
+    padding:0.5em;
+}
+
+#homehero{margin:0;
+          height:200px;
+ }
+
+#yurthero{margin:0;
+          height:200px;
+ }
+
+#trailhero{margin:0;
+          height:200px;
+ }
+
+ #pathhero{margin:0;
+          height:200px;
+ }
+
+
+footer{margin:0;
+}
+
+
+
+
+}

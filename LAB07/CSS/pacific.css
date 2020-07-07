@@ -1,0 +1,154 @@
+
+
+body{ 
+    background: #b8dbed;
+    box-sizing: border-box;
+    font-family: Arial, Verdana,
+    Sans-Serif;
+}
+
+header {
+    color:#FFFFFF;
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 3em;
+    text-align: center;;
+    background-color: #000033; 
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;    
+ 
+}
+
+
+
+main{
+    padding-top:1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    scroll-padding-left: 20px;
+    display:block;
+    margin-left: 190px;
+
+    background-color:#FFFFFF;
+
+}
+
+main ul{}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3;
+    border:1px solid #000033;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+nav{
+ font-size: 120%;
+padding: 1.5em;
+float: left;
+width: 160px;
+  
+}
+nav a{
+    text-decoration: none;
+
+}
+
+h1{
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    letter-spacing: 0.0625em;
+}
+
+h2{
+    color: #CCCCCC;
+    offset: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ h3
+ {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+
+
+ }
+dt{
+    background-color: #000033;
+}
+nav a:link{columns: #5c7fa3;;}
+nav a:visited{color:#344873;}
+nav a:hover{color:#A52A2A}
+
+nav ul
+{ list-style-type: none;
+   margin: 0;
+   padding-left: 0;
+   font-size: 1.2em;  
+
+}
+
+
+footer
+{
+    font-family: sans-serif, "Georgia", "Times New Roman";
+        font-style: italic;
+        font-size: 75%;
+        padding:20px;
+        background-color: #ffffff;
+        margin-left: 190px;
+        text-align: center;
+        padding: 20px;
+           
+
+}
+.ressort
+{
+font-weight: bold;
+
+}
+
+#contact{font-size:90%;}
+
+#container {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    background-color:#90C7E3;
+    min-width: 960px;
+    max-width:2048px;
+    box-shadow:3px 3px 3px #333333;
+}
+
+#homehero{
+    height:300px;
+    background-image:url(../Images/yurthero.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}
+
+#yurthero{height:300px;
+    background-image:url(../Images/yurt.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}
+
+#trailhero{height:300px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin-left:190px;
+
+
+}
